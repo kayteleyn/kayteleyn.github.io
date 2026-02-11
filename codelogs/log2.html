@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Measuring Units</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		/* in-file CSS here */
+	</style>
+
+	<!-- external and internal JavaScript -->
+	<script src="scripts.js" defer></script>
+	<script>
+		// in-page JavaScript here
+	</script>
+
+</head>
+<body>
+
+    <h1>CSS Measuring Units</h1>
+
+    <main>
+    <section>
+        <h2>What's the difference between absolute and relative CSS length units?</h2>
+        <p>The difference between relative and absolute CSS legnths are that absolute measurements represent a fixed enviromnent, unchangable environment. They don't scale based on zoom or screen size, it's always the same no matter what.</p> Relative units on the other hand change depending on what context is imminent, such as screen size, a parent element's size, and so on. So, the difference is that absolute is stationary while relative is adaptive.
+        
+        <p>Relative units on the other hand change depending on what context is imminent, such as screen size, a parent element's size, and so on. So, the difference is that absolute is stationary while relative is adaptive.</p>
+    </section>
+
+    <section>
+        <h2>Differences between certain CSS units</h2>
+        <p>For the units I'm going to describe, I'll be using the following:
+            <ul>
+                <li>em, rem</li>
+                <li>vw, vh</li>
+                <li>%</li>
+            </ul>
+        </p>
+
+        <section>
+            <h2>em & rem</h2>
+            <p>Em Is the measurement of an element's parent. For example, if a page's font size is 12pt., then the em would be 1em = 12pt, 2em = 24pt, and so on. Its basically a measurement of a another, already-set measurement for that spot, like how you can change font size in a Google doc; it can change the font whjere it's placed.</p>
+            <p>Rem is the measurement is the font size of a root element rather than the parent. It plays the same as an em, with the 1 = x1 size, 2 = x2 size, however rem keeps the font size consistent, thus the 'root' instead of 'parent'.</p>
+        </section>
+        
+        <section>
+            <h2>Vw & vh</h2>
+            <p>Vw and vh are measurements based on the viewport of the page, meaning that they measure the width/height of the webpage. So. 1vh is 1% of the webpage's height, while 1vw is 1% of the webpage's width. They're useful to scale browser windows, good for fullscreen sections and small sections, such as for a small 'feedback' window.</p>
+        </section>
+
+        <section>
+            <h2>Percentage %</h2>
+            <p>A percentage unit refers the size of something called the parent container, and is just a specific measurement on scaling selected items, such as margins, width, and font size. So say is you want a sentence or paragraph 50% larger, you just simply use "font-size: 150%;" and whatever other tweaks you wish. However if you want it 50% smaller, then you use "font-size: 50%;", being 50% of the parent's size rather than 50% larger.</p>
+        </section>
+    
+    
+    </section>
+   </main>
+
+</body>
+</html>
