@@ -47,7 +47,7 @@ p.callout {
 #secondlayout main {
     display: grid;
     grid-template-columns: repeat(6, calc(100% / 6));
-    grid-template-rows: repeat(11, auto);
+    grid-template-rows: 100vh repeat(11, auto);
     grid-template-areas: 
             'title title title title title title'
             '. p1 p1 . . .'
@@ -81,10 +81,15 @@ p.callout {
 #secondlayout #callout3 { grid-area: c3; }
 #secondlayout #callout4 { grid-area: c4; }
 
+/* overrride the baseline p styles from above */
 #secondlayout p {
     width 150%;
 }
 
 #secondlayout #callout1 {
     padding-left: 0;
+}
+
+#secondlayout section h1 {
+    padding-top: 60vh;
 }
