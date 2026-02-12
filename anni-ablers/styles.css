@@ -39,3 +39,28 @@ p.callout {
 #row4 p {
     margin-left: calc(100% * 2 / 6);
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* CSS for index 2!!!!!!!!!!!! */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#secondlayout main {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas: 
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .'
+            '. . . . . .';
+
+}
+
+#secondlayout #titlerow { grid-area: title; }
