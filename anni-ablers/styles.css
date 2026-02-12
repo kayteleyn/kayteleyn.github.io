@@ -2,7 +2,7 @@
 
 main {
     width: 80%;
-    max width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ p.callout {
 
 /* overrride the baseline p styles from above */
 #secondlayout p {
-    width 150%;
+    width: 150%;
 }
 
 #secondlayout #callout1 {
