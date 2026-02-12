@@ -54,13 +54,15 @@ p.callout {
             'p2 p2 p2 c1 c1 c1'
             '. p3 p3 p3 . .'
             '. . p4 p4 p4 .'
-            '. . . . . .'
-            '. . . . . .'
-            '. . . . . .'
-            '. . . . . .'
-            '. . . . . .'
-            '. . . . . .';
+            'c2 c2 c2 p5 p5 p5'
+            '. . p6 p6 p6 .'
+            '. p7 p7 p7 . .'
+            'p8 p8 p8 c3 c3 c3'
+            '. p9 p9 p9 . .'
+            '. . p10 p10 p10 .'
+            'c4 c4 c4 p11 p11 p11';
 }
+
 
 #secondlayout #titlerow { grid-area: title; }
 #secondlayout #para1 { grid-area: p1; }
@@ -80,5 +82,9 @@ p.callout {
 #secondlayout #callout4 { grid-area: c4; }
 
 #secondlayout p {
-    width 100%;
+    width 150%;
+}
+
+#secondlayout #callout1 {
+    padding-left: 0;
 }
