@@ -34,6 +34,7 @@ header {
     left: 1em;
     color: lightpink;
     font-size: 2.5em;
+    width: calc(100vw - 2em);
 }
 
 @media screen and (orrientaton: landscape) {
