@@ -30,10 +30,10 @@ header {
 
 #RhodieTitle h1 {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 1em;
     color: lightpink;
-    font-size: 2.5em;
+    font-size: 5em;
     width: calc(100vw - 2em);
 }
 
@@ -45,9 +45,10 @@ header {
 
     #RhodieTitle {
         width: 50vw;
-        left: 50vw;
+        right: 0;
         background-image: url(l358.jpg);
         background-color: pink;
+        position: center center;
     }
 
     #RhodieTitle h1 {
@@ -55,12 +56,3 @@ header {
     }
     
 }
-
-
-#Rhodiepic2 {
-    width: 50vw;
-    right: 0;
-    opacity: 20;
-    background-image: url(Pacific\ Rhododendron\ 2\ -\ Gary\ Monroe-1.jpeg);
-}
-
