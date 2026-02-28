@@ -37,6 +37,8 @@ header {
     width: calc(100vw - 2em);
 }
 
+/* Desktop layout */
+
 @media screen and (orientation: landscape) {
 
     #Rhodiepic {
@@ -55,28 +57,88 @@ header {
     
 }
 
+/* Information layout */
+
 #maininfo {
+    width: 100vw;
     display: grid;
-    grid-template-columns: repeat(6, calc(100% / 6));
+    grid-template-columns: repeat(4, calc(100%) / 4);
     grid-template-rows: 100vh repeat(5, auto);
     grid-template-areas: 
-            '.Heading Heading Heading KeyAspects KeyAspects KeyAspects'
-            '. scientificname . list list list'
-            '. . . . . .'
-            '. . . . . .'
-            '. . . . . .'
+        'Heading Heading KeyAspects KeyAspects'
+        '. scientificname . .'
+        'sec1 sec1 sec2 sec2'
+        'sec1 sec1 sec2 sec2'
+        '. . . .';
+}
+
+#sec1 {
+    color: lightpink;
+    font-size: 35px;
+    margin: 1em;
+}
+
+#sec2 {
+    margin: 1em;
+}
+
+#KeyAspects {
+    width: 50vw;
+    font-size: 50px;
+    color: lightpink;
+    margin: 1em;
 
 }
 
-#sec1 {}
+#scientificname {
+    font-size: 13px;
+    color: lightpink;
+}
 
-#sec2 {}
+#Heading {
+    font-size: 50px;
+    width: 50vw;
+    color: lightpink;
+}
 
-#KeyAspects {}
+#list {
+    width: 50vw;
+    font-size: 30px;
+    color: lightpink;
+    margin: 1em;
+}
 
-#scientificname {}
+/* Information mobile layout */
 
-#heading {}
+@media screen and (orientation: portrait) {
 
+    #sec1 {
+        left: 0;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 1em;
+    }
 
+    #Heading {
+        font-size: 22px;
+        margin: 1em;
+        width: 45%
+    }
 
+    #KeyAspects {
+        font-size: 22px;
+        margin-top: 1em;
+        left: 1em;
+        width: 30%
+    }
+
+    #list {
+        font-size: 15px;
+        width: 50%
+    }
+    
+}
+
+main {
+    background-color: forestgreen;
+}
