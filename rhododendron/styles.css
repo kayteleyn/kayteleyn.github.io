@@ -30,10 +30,10 @@ header {
 
 #RhodieTitle h1 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 1em;
-    color: lightpink;
-    font-size: 5em;
+    color: whitesmoke;
+    font-size: 2.5em;
     width: calc(100vw - 2em);
 }
 
@@ -45,10 +45,8 @@ header {
 
     #RhodieTitle {
         width: 50vw;
-        right: 0;
-        background-image: url(l358.jpg);
-        background-color: pink;
-        position: center center;
+        left: 50vw;
+        background-color: lightpink;
     }
 
     #RhodieTitle h1 {
@@ -56,3 +54,4 @@ header {
     }
     
 }
+
