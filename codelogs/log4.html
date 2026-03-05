@@ -49,12 +49,32 @@
             <p>There are multiple ways in which CSS processes and accepts color, with some of them being:</p>
             <ol>
                 <li>RGB
-                    <p>This method is a way to precisely use red green and blue in your color, matching it exactly to your liking by putting numbers in order of red, green, blue.</p>
+                    <p>This method is a way to precisely use red green and blue in your color, matching it exactly to
+                        your liking by putting numbers in order of red, green, blue.</p>
                     <p>Example:
-                        p.rgb-example {
-                            color: rgb(20, 32, 40);
-                        }
+                        "p.rgb-example {
+                        color: rgb(20, 32, 40);
+                        }".
                     </p>
+                </li>
+                <li>Hexadecimal
+                    <p>HExadecimal is also a precise way of getting a desired color, however rather than putting the
+                        exact numbers, this one is a 6 character code, being something like "#rrf321". It's in CSS as:
+                        "p.hex-example { color: #rrr321; }".</p>
+
+                </li>
+                <li>Named
+                    <p>Named color format is a fast way to get a color on something, however its less precise than RGB
+                        and hexadecimal, since its a premade color rather than a specific code. It's the most simple,
+                        taking code as: "example { color: pink; }". </p>
+
+                </li>
+                <li>HSL
+                    <p>HSL format is a way to change the hue, saturation, and lightless, with those factors standing for
+                        HSL. This one is better for altering colors rather than setting them, with the CSS format being
+                        something like: "example { hsl(30, 50%, 60%); }". The hue is a basic number, while saturation
+                        and lightless use precentages.</p>
+                </li>
             </ol>
         </section>
     </main>
