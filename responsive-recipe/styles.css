@@ -3,6 +3,8 @@
     width: auto;
 }
 
+/*desktop layout */
+
 @media screen and (orientation:landscape) {
 
     * {
@@ -22,7 +24,7 @@
     }
 
     #sec2 {
-        width: 65vw;
+        width: 60vw;
     }
     
 
@@ -39,7 +41,7 @@
         'sec1 sec1 sec2 sec2 sec2 sec2'
         '. . . . . .'
         '. . . . . .'
-        '. . . . . .'
+        '. . . . . .';
 }
 
 #sec1 {
@@ -48,7 +50,7 @@
 }
 
 #sec2 {
-    width: 65vw;
+    width: 60vw;
     font-size: 25px;
     height: 50vh;
     position: absolute;
@@ -65,5 +67,49 @@
     right: 0;
     position: absolute;
     top: 0;
+}
+
+#sec1, #sec2 {
+    margin: 1em;
+    position: center;
+    top-margin: 3em;
+}
+
+/* modile layout */
+
+@media screen and (orientation: portrait) {
+
+    * {
+        width: 70vw;
+        font-size: 15px;
+    }
+
+    #image {
+        width: 100vw;
+        position: absolute;
+        margin-top: 40%;
+    }
+
+    #name {
+        font-size: 30px
+    }
+
+    #sec1 {
+        position: absolute;
+        margin-top: 80%;
+        width: 30%;
+    }
+
+    #sec2 {
+        position: absolute;
+        left: 0;
+        width: 20%;
+        padding-top: 30em;
+    }
+  
+}
+
+#sec1, #sec2 {
+    padding-top: 3em
 }
 
