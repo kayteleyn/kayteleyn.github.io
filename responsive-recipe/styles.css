@@ -1,5 +1,5 @@
 * {
-    font: italic;
+    font-family: arial, sans-serif;
     width: auto;
 }
 
@@ -14,7 +14,7 @@
     }
 
     #sec1 {
-        width: 30vw;
+        width: 35vw;
         left: auto;
     }
 
@@ -37,4 +37,24 @@
         '. . . . . .'
         '. . . . . .'
         '. . . . . .'
+}
+
+#sec1 {
+    font-size: 25px;
+    width: 35vw;
+}
+
+#sec2 {
+    width: 65vw;
+    font-size: 25px;
+}
+
+#header {
+    font-size: 25px;
+    width: 35vw;
+}
+
+#image {
+    width: 65vw;
+    right: auto;
 }
