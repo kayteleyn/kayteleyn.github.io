@@ -1,0 +1,40 @@
+* {
+    font: italic;
+    width: auto;
+}
+
+@media screen and (orientation:landscape) {
+
+    * {
+        margin: 1vw;
+    }
+
+    #image {
+        width: 65vw;
+    }
+
+    #sec1 {
+        width: 30vw;
+        left: auto;
+    }
+
+    #sec2 {
+        width: 65vw;
+    }
+    
+
+}
+
+#main {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6, calc(100%) / 4);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+        'name name image image image image'
+        'desc desc image image image image'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .'
+}
