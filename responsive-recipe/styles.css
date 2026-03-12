@@ -27,6 +27,9 @@
         width: 60vw;
     }
     
+    #sec1, #sec2 {
+        padding-top: 3em;
+    }
 
 }
 
@@ -107,9 +110,5 @@
         padding-top: 30em;
     }
   
-}
-
-#sec1, #sec2 {
-    padding-top: 3em;
 }
 
