@@ -1,0 +1,113 @@
+* {
+    font-family: arial, sans-serif;
+    width: auto;
+}
+
+/*desktop layout */
+
+@media screen and (orientation:landscape) {
+
+    * {
+        margin: 1vw;
+    }
+
+    #image {
+        width: 65vw;
+        height: 30vh;
+        right: auto;
+        background-image: "pexels-shameel-mukkath-3421394-5639378 (2).jpg";
+    }
+
+    #sec1 {
+        width: 35vw;
+        right: auto;
+    }
+
+    #sec2 {
+        width: 60vw;
+    }
+    
+    #sec1, #sec2 {
+        padding-top: 3em;
+    }
+
+}
+
+#main {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6, calc(100%) / 4);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+        'name name image image image image'
+        'desc desc image image image image'
+        'sec1 sec1 sec2 sec2 sec2 sec2'
+        '. . . . . .'
+        '. . . . . .'
+        '. . . . . .';
+}
+
+#sec1 {
+    font-size: 25px;
+    width: 35vw;
+}
+
+#sec2 {
+    width: 60vw;
+    font-size: 25px;
+    height: 50vh;
+    position: absolute;
+    right: 0;
+}
+
+#header {
+    font-size: 25px;
+    width: 35vw;
+}
+
+#image {
+    width: 60vw;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+#sec1, #sec2 {
+    margin: 1em;
+    position: center;
+    margin-top: 3em;
+}
+
+/* modile layout */
+
+@media screen and (orientation: portrait) {
+
+    * {
+        width: 70vw;
+        font-size: 15px;
+    }
+
+    #image {
+        width: 100vw;
+        position: absolute;
+        margin-top: 40%;
+    }
+
+    #name {
+        font-size: 30px
+    }
+
+    #sec1 {
+        position: absolute;
+        margin-top: 80%;
+        width: 30%;
+    }
+
+    #sec2 {
+        position: absolute;
+        left: 0;
+        width: 20%;
+        padding-top: 30em;
+    }
+  
+}
