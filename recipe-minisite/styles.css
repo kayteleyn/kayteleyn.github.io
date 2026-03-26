@@ -37,14 +37,15 @@
     .button {
         padding: 15px;
         position: relative;
-        background-color: pink;
+        background-color: darkred;
         display: inline-block;
         border-radius: 5px;
         margin: 10px;
+        color: white;
     }
 
     .button:hover {
-        background-color: fuchsia;
+        background-color: red;
         color: white;
     }
 
