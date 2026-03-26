@@ -1,6 +1,5 @@
 * {
     font-family: arial, sans-serif;
-    width: auto;
 }
 
 /*desktop layout */
@@ -38,6 +37,7 @@
         border-radius: 5px;
         margin: 10px;
         color: white;
+        
     }
 
     .button:hover {
@@ -52,6 +52,11 @@
 
     #desc {
         padding-top: 3.5em
+    }
+
+    #favrec {
+        position: absolute;
+        padding-top: 2em
     }
 
 }
@@ -97,5 +102,28 @@ main {
         left: 0;
         padding: 1.5em
     }
-  
+
+    .button {
+        width: auto;
+        padding: 2px;
+        position: relative;
+        background-color: darkred;
+        display: block;
+        border-radius: 2px;
+        margin: 1px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .button:hover {
+        background-color: red;
+        color: white;
+    }
+
+    #favrec {
+        position: absolute;
+        padding-top: 3em;
+    }
 }
+
+    
