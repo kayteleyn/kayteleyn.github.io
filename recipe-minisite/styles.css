@@ -13,22 +13,25 @@
 
     #image {
         width: 65vw;
-        height: 30vh;
+        height: 39vh;
         right: auto;
-        background-image: "pexels-shameel-mukkath-3421394-5639378 (2).jpg";
+        position: relative;
     }
 
     #sec1 {
         width: 35vw;
         right: auto;
+        position: relative;
     }
 
     #sec2 {
         width: 60vw;
+        position: relative;
     }
     
     #sec1, #sec2 {
-        padding-top: 3em;
+        padding-top: 6.5em;
+        position: relative;
     }
 
     .button {
@@ -65,13 +68,14 @@
 #sec1 {
     font-size: 25px;
     width: 35vw;
+    position: relative;
 }
 
 #sec2 {
     width: 60vw;
     font-size: 25px;
     height: 50vh;
-    position: absolute;
+    position: relative;
     right: 0;
 }
 
@@ -104,8 +108,7 @@
 
     #image {
         width: 100vw;
-        position: absolute;
-        margin-top: 40%;
+        position: relative;
     }
 
     #name {
@@ -113,8 +116,8 @@
     }
 
     #sec1 {
-        position: absolute;
-        margin-top: 80%;
+        position: relative;
+       
         width: 30%;
     }
 
@@ -122,7 +125,7 @@
         position: absolute;
         left: 0;
         width: 20%;
-        padding-top: 30em;
+        padding-top: 16em;
     }
   
 }
