@@ -87,7 +87,6 @@ header {
     font-size: 50px;
     color: lightpink;
     margin: 1em;
-
 }
 
 #scientificname {
@@ -139,19 +138,23 @@ header {
     
 }
 
-main {
-    background-color: forestgreen;
-}
+
+
 
 #toggleDarkMode {
     margin-top: 2em;
+    background-color: pink;
+    margin-left: 65em;
+    padding: 1.5em;
+    
 }
 
 body.darkMode {
-    background-color: darkgrey;
+    background-color: darkslategray;
     color: white;
+    
 }
 
-body.darkMode h1 {
-    color: red;
+main.darkMode {
+    background-color: red;
 }
