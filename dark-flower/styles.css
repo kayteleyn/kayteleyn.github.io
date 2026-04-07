@@ -142,3 +142,16 @@ header {
 main {
     background-color: forestgreen;
 }
+
+#toggleDarkMode {
+    margin-top: 2em;
+}
+
+body.darkMode {
+    background-color: darkgrey;
+    color: white;
+}
+
+body.darkMode h1 {
+    color: red;
+}
