@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#Rhodiepic {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Pacific\ Rhododendron\ 1\ -\ Walter\ Siegmund.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#RhodieTitle {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#RhodieTitle h1 {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    color: whitesmoke;
+    font-size: 2.5em;
+    width: calc(100vw - 2em);
+}
+
+/* Desktop layout */
+
+@media screen and (orientation: landscape) {
+
+    #Rhodiepic {
+        width: 50vw;
+    }
+
+    #RhodieTitle {
+        width: 50vw;
+        left: 50vw;
+        background-color: lightpink;
+    }
+
+    #RhodieTitle h1 {
+        width: 45vw;
+    }
+    
+}
+
+/* Information layout */
+
+#maininfo {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, calc(100%) / 4);
+    grid-template-rows: 100vh repeat(5, auto);
+    grid-template-areas: 
+        'Heading Heading KeyAspects KeyAspects'
+        '. scientificname . .'
+        'sec1 sec1 sec2 sec2'
+        'sec1 sec1 sec2 sec2'
+        '. . . .';
+}
+
+#sec1 {
+    color: lightpink;
+    font-size: 35px;
+    margin: 1em;
+}
+
+#sec2 {
+    margin: 1em;
+}
+
+#KeyAspects {
+    width: 50vw;
+    font-size: 50px;
+    color: lightpink;
+    margin: 1em;
+
+}
+
+#scientificname {
+    font-size: 13px;
+    color: lightpink;
+}
+
+#Heading {
+    font-size: 50px;
+    width: 50vw;
+    color: lightpink;
+}
+
+#list {
+    width: 50vw;
+    font-size: 30px;
+    color: lightpink;
+    margin: 1em;
+}
+
+/* Information mobile layout */
+
+@media screen and (orientation: portrait) {
+
+    #sec1 {
+        left: 0;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 1em;
+    }
+
+    #Heading {
+        font-size: 22px;
+        margin: 1em;
+        width: 45%
+    }
+
+    #KeyAspects {
+        font-size: 22px;
+        margin-top: 1em;
+        left: 1em;
+        width: 30%
+    }
+
+    #list {
+        font-size: 15px;
+        width: 50%
+    }
+    
+}
+
+main {
+    background-color: forestgreen;
+}
