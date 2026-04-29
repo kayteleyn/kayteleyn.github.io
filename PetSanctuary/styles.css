@@ -11,7 +11,9 @@
     width: 20vw;
     margin-right: 50vw;
     text-align: center;
-    margin-top: .5em
+    margin-top: .5em;
+    z-index: 2;
+    margin-left: 1em;
 }
 
 
@@ -20,8 +22,14 @@
 }
 
 #image {
+    top: auto;
+    z-index: 1;
+    opacity: 65%;
+    left: auto;
+    position: absolute;
     background-image: url(Screenshot 2026-04-28 232344.png);
+    margin-top: -190px;
+    height: 608px;
+    width: 30vw;
 }
-
-
 
