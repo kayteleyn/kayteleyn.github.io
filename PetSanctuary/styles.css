@@ -37,12 +37,16 @@
         color: #D4778C;
         font-weight: bold;
         margin: .2em;
-        width: 80vw;
+        Width: 85vw;
         text-align: center;
         font-size: 18px;
         border-radius: 5px;
-        margin-right: 2em;
     }
+
+   .button {
+       display: inline-block;
+       margin: 10px auto;
+   }
 
     .navbar a:hover {
         background-color: whitesmoke;
@@ -50,6 +54,7 @@
 
     #HPH1 {
         text-align: center;
+        margin: .3em;
     }
 
     #HPIntroDiv {
