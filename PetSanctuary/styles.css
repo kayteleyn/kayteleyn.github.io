@@ -86,5 +86,45 @@
         padding: .4em
     }
 
+    #HPNav1 {
+        position: relative;
+        left: 20em;
+        width: 40vw;
+        font-size: 18px;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+    #HPH1 {
+        Position: relative;
+        left: 15em;
+        letter-spacing: 5px;
+        word-spacing: 8px;
+    }
+
+    #HPNav2 {
+        position: relative;
+        left: 20em;
+        width: 40vw;
+        font-size: 18px;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 10px
+    }
+
+    #WebReccH2 {
+        position: relative;
+        left: 21.5em;
+    }
+
+    #HPContDiv {
+        position: absolute;
+        left: 30em;
+    }
+
+    
+
+
 
 }
