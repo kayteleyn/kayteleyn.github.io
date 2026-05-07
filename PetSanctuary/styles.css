@@ -60,10 +60,27 @@
 
     #FoodNav {
         position: fixed;
-        left: 75em;
+        left: 77.3em;
+        background-color: pink;
+        padding: 1.5em;
+        border-radius: 5px;
+    }
+
+    #ParaDiv {
+        background-color: pink;
+        padding: 2em;
+        border-radius: 15px
+    }
+
+    body {
+        background-color: #D6789A;
+        color: white;
+
+
     }
 
 }
+
 
 
 
