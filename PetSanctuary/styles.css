@@ -6,6 +6,13 @@
 
 @media screen and (orientation:landscape) {
 
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #D6789A;
+        color: white;
+    }
+    
     .navbar {
         display: flex;
         gap: 20px;
@@ -39,10 +46,6 @@
         width: 20vw;
     }
 
-    body {
-        margin: 0;
-        padding: 0;
-    }
 
         /* Pet Site Alterations */
 
@@ -59,11 +62,12 @@
     }
 
     #FoodNav {
-        position: fixed;
+        position: relative;
         left: 77.3em;
         background-color: pink;
         padding: 1.5em;
         border-radius: 5px;
+        width: 15vw;
     }
 
     #ParaDiv {
@@ -72,15 +76,5 @@
         border-radius: 15px
     }
 
-    body {
-        background-color: #D6789A;
-        color: white;
-
-
-    }
 
 }
-
-
-
-
