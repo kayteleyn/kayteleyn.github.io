@@ -123,6 +123,11 @@
         left: 30em;
     }
 
+    #BunntPic {
+        position: absolute;
+        Background-Image: url(pexels-shvetsa-4588074.jpg);
+    }
+
     
 
 
