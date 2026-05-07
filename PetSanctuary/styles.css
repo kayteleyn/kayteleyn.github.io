@@ -2,6 +2,112 @@
     font-family: monospace;
 }
 
+/* Mobile Layout */
+
+@media screen and (orientation:portrait) {
+
+
+    
+    body {
+        margin: 0;
+        background-color: #D6789A;
+        color: white;
+    }
+
+    /* Homepage + nav bar mobile layout */
+    
+    .navbar {
+        display: flex;
+        gap: 20px;
+        background-color: #FCB8C6;
+        padding: 10px;
+        height: 27em;
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+     .navbar a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: white;
+        padding: .3em;
+        color: #D4778C;
+        font-weight: bold;
+        margin: .2em;
+        width: 80vw;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-right: 2em;
+    }
+
+    .navbar a:hover {
+        background-color: whitesmoke;
+    }
+
+    #HPH1 {
+        text-align: center;
+    }
+
+    #HPIntroDiv {
+        margin: 1em;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    #WebReccH2 {
+        margin: .5em;
+        text-align: center;
+    }
+
+    #HPReccDiv {
+        margin: 1em;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    #HPContDiv {
+        text-align: center;
+    }
+
+    /* Pet site Mobile Layout */
+
+    #PetPageH1 {
+        letter-spacing: 5px;
+        word-spacing: 8px;
+        text-align: center;
+        margin: .3em;
+    }
+
+    #GenCareAdvH2 {
+        text-align: center;
+    }
+
+    #GenCareCont {
+        text-align: center;
+        margin: 1em;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    #FoodNav {
+        text-align: center;
+        margin: 1em;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    
+}
+
+
 /* Navigation Bar Tweaks + Landscape */
 
 @media screen and (orientation:landscape) {
@@ -123,85 +229,4 @@
         left: 30em;
     }
 
-}
-
-
-/* Mobile Layout */
-
-@media screen and (orientation:portrait) {
-
-
-    
-    body {
-        margin: 0;
-        background-color: #D6789A;
-        color: white;
-    }
-
-    /* Homepage + nav bar mobile layout */
-    
-    .navbar {
-        display: flex;
-        gap: 20px;
-        background-color: #FCB8C6;
-        padding: 10px;
-        height: 27em;
-        position: relative;
-    }
-
-    h1 {
-        margin: 0;
-    }
-
-     .navbar a {
-        text-decoration: none;
-        display: inline-block;
-        background-color: white;
-        padding: .3em;
-        color: #D4778C;
-        font-weight: bold;
-        margin: .2em;
-        width: 80vw;
-        text-align: center;
-        font-size: 18px;
-        border-radius: 5px;
-        margin-right: 2em;
-    }
-
-    .navbar a:hover {
-        background-color: whitesmoke;
-    }
-
-    #HPH1 {
-        text-align: center;
-    }
-
-    #HPIntroDiv {
-        margin: 1em;
-        background-color: pink;
-        padding: 1em;
-        border-radius: 5px;
-    }
-
-    #WebReccH2 {
-        margin: .5em;
-        text-align: center;
-    }
-
-    #HPReccDiv {
-        margin: 1em;
-        background-color: pink;
-        padding: 1em;
-        border-radius: 5px;
-    }
-
-    #HPContDiv {
-        text-align: center;
-    }
-
-    /* Pet site Mobile Layout */
-
-    
-
-    
 }
