@@ -2,7 +2,7 @@
     font-family: monospace;
 }
 
-/* Navigatioon Bar Tweaks + Landscape */
+/* Navigation Bar Tweaks + Landscape */
 
 @media screen and (orientation:landscape) {
 
@@ -64,14 +64,14 @@
     #FoodNav {
         position: relative;
         left: 77.3em;
-        background-color: pink;
+        background-color: #FCB8C6;
         padding: 1.5em;
         border-radius: 5px;
         width: 15vw;
     }
 
     #ParaDiv {
-        background-color: pink;
+        background-color: #FCB8C6;
         padding: 2em;
         border-radius: 15px
     }
@@ -89,9 +89,9 @@
     #HPNav1 {
         position: relative;
         left: 20em;
-        width: 40vw;
-        font-size: 18px;
-        background-color: pink;
+        width: 55vw;
+        font-size: 20px;
+        background-color: #FCB8C6;
         padding: 1em;
         border-radius: 10px;
     }
@@ -106,9 +106,9 @@
     #HPNav2 {
         position: relative;
         left: 20em;
-        width: 40vw;
-        font-size: 18px;
-        background-color: pink;
+        width: 55vw;
+        font-size: 20px;
+        background-color: #FCB8C6;
         padding: 1em;
         border-radius: 10px
     }
@@ -123,13 +123,85 @@
         left: 30em;
     }
 
-    #BunnyPic {
-        position: absolute;
-        background-Image: url(pexels-shvetsa-4588074.jpg);
+}
+
+
+/* Mobile Layout */
+
+@media screen and (orientation:portrait) {
+
+
+    
+    body {
+        margin: 0;
+        background-color: #D6789A;
+        color: white;
     }
+
+    /* Homepage + nav bar mobile layout */
+    
+    .navbar {
+        display: flex;
+        gap: 20px;
+        background-color: #FCB8C6;
+        padding: 10px;
+        height: 27em;
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+     .navbar a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: white;
+        padding: .3em;
+        color: #D4778C;
+        font-weight: bold;
+        margin: .2em;
+        width: 80vw;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-right: 2em;
+    }
+
+    .navbar a:hover {
+        background-color: whitesmoke;
+    }
+
+    #HPH1 {
+        text-align: center;
+    }
+
+    #HPIntroDiv {
+        margin: 1em;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    #WebReccH2 {
+        margin: .5em;
+        text-align: center;
+    }
+
+    #HPReccDiv {
+        margin: 1em;
+        background-color: pink;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    #HPContDiv {
+        text-align: center;
+    }
+
+    /* Pet site Mobile Layout */
 
     
 
-
-
+    
 }
