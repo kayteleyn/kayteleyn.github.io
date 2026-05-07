@@ -2,63 +2,67 @@
     font-family: monospace;
 }
 
-/* Navigatioon Bar Tweaks */
+/* Navigatioon Bar Tweaks + Landscape */
 
-.navbar {
-    display: flex;
-    gap: 20px;
-    background-color: #FCB8C6;
-    padding: 15px;
-    width: 20vw;
-    height: 1120vh;
-    position: fixed;
+@media screen and (orientation:landscape) {
+
+    .navbar {
+        display: flex;
+        gap: 20px;
+        background-color: #FCB8C6;
+        padding: 15px;
+        width: 20vw;
+        height: 1120vh;
+        position: fixed;
     
-}
+    }
 
-.navbar a {
-    text-decoration: none;
-    display: inline-block;
-    background-color: white;
-    padding: .7em;
-    color: #D4778C;
-    font-weight: bold;
-    margin: .5em;
-    width: 15vw;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-}
+    .navbar a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: white;
+        padding: .7em;
+        color: #D4778C;
+        font-weight: bold;
+        margin: .5em;
+        width: 15vw;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+    }
 
-.navbar a:hover {
-    background-color: whitesmoke;
-}
+    .navbar a:hover {
+        background-color: whitesmoke;
+    }
 
-#navbarbuttons {
-    width: 20vw;
-}
+    #navbarbuttons {
+        width: 20vw;
+    }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
-/* Cat Site Alterations */
+        /* Pet Site Alterations */
 
-#GenCareCont {
-    width: 50vw;
-    position: relative;
-    left: 25em;
-    height: 3em
-}
+    #GenCareCont {
+        width: 50vw;
+        position: relative;
+        left: 25em;
+        height: 3em
+    }
 
-#PetPageH1 {
-    position: relative;
-    left: 13em
-}
+    #PetPageH1 {
+        position: relative;
+        left: 13em
+    }
 
-#FoodNav {
-    position: fixed;
-    left: 75em;
+    #FoodNav {
+        position: fixed;
+        left: 75em;
+    }
+
 }
 
 
