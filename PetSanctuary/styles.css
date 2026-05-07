@@ -47,13 +47,23 @@ body {
 #GenCareContCat {
     width: 50vw;
     position: relative;
-    left: 21em;
+    left: 25em;
     height: 3em
 }
 
-h1 {
+#CatCareH1 {
     position: relative;
-    left: 11em
+    left: 13em
+}
+
+#CatFoodNav {
+    position: fixed;
+    left: 75em;
+}
+
+#CatBod {
+    margin: 0;
+    padding: 0;
 }
 
 
