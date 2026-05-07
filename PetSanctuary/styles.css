@@ -42,10 +42,15 @@
     gap: 20px;
     background-color: pink;
     padding: 15px;
+    width: 30vw;
+    height: 100vh;
 }
 
 .navbar a {
     text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    padding: 1em;
     color: #333;
     font-weight: bold;
 }
@@ -53,5 +58,7 @@
 .navbar a:hover {
     color: #666;
 }
+
+
 
 
