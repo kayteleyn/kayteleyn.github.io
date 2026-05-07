@@ -44,28 +44,22 @@ body {
 
 /* Cat Site Alterations */
 
-#GenCareContCat {
+#GenCareCont {
     width: 50vw;
     position: relative;
     left: 25em;
     height: 3em
 }
 
-#CatCareH1 {
+#PetPageH1 {
     position: relative;
     left: 13em
 }
 
-#CatFoodNav {
+#FoodNav {
     position: fixed;
     left: 75em;
 }
-
-#CatBod {
-    margin: 0;
-    padding: 0;
-}
-
 
 
 
