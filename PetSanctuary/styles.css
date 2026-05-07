@@ -2,6 +2,7 @@
     font-family: monospace;
 }
 
+/* Navigatioon Bar Tweaks */
 
 .navbar {
     display: flex;
@@ -9,7 +10,9 @@
     background-color: #FCB8C6;
     padding: 15px;
     width: 20vw;
-    height: 100vh;
+    height: 1120vh;
+    position: fixed;
+    
 }
 
 .navbar a {
@@ -37,6 +40,20 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+/* Cat Site Alterations */
+
+#GenCareContCat {
+    width: 50vw;
+    position: relative;
+    left: 21em;
+    height: 3em
+}
+
+h1 {
+    position: relative;
+    left: 11em
 }
 
 
