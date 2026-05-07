@@ -1,48 +1,14 @@
 * {
-    font-family: arial;
+    font-family: monospace;
 }
 
-.button {
-    color: white;
-    background-color: #FFB3C9;
-    display: inline-block;
-    padding: .3em;
-    position: relative;
-    width: 20vw;
-    margin-right: 50vw;
-    text-align: center;
-    margin-top: .5em;
-    z-index: 2;
-    margin-left: 1em;
-}
-
-
-.button:hover {
-    background-color: #CC708B;
-}
-
-#image {
-    top: auto;
-    z-index: 1;
-    opacity: 65%;
-    left: auto;
-    position: absolute;
-    background-image: url(Screenshot 2026-04-28 232344.png);
-    margin-top: -190px;
-    height: 608px;
-    width: 30vw;
-}
-
-#CatBod {
-    background-image: url(Screenshot 2026-04-28 232344.png);
-}
 
 .navbar {
     display: flex;
     gap: 20px;
-    background-color: pink;
+    background-color: #FCB8C6;
     padding: 15px;
-    width: 30vw;
+    width: 20vw;
     height: 100vh;
 }
 
@@ -50,13 +16,27 @@
     text-decoration: none;
     display: inline-block;
     background-color: white;
-    padding: 1em;
-    color: #333;
+    padding: .7em;
+    color: #D4778C;
     font-weight: bold;
+    margin: .5em;
+    width: 15vw;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .navbar a:hover {
-    color: #666;
+    background-color: whitesmoke;
+}
+
+#navbarbuttons {
+    width: 20vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
