@@ -1,1 +1,9 @@
+* {
+    font-style: sans-serif;
+}
 
+#image {
+    background-image: url(ChatGPT Image May 8, 2026, 12_45_33 PM.png);
+    height: 500vh;
+    width: 100vw;
+}
