@@ -15,7 +15,7 @@ body {
 .step {
     z-index: 1;
     position: absolute;
-    font-size: 150%;
+    font-size: %;
     color: white
 }
 
@@ -23,4 +23,44 @@ body {
     width: 100vw;
     height: 500vw;
     position: absolute;
+}
+
+#Heading {
+    font-size: 300%;
+    margin-top: 5em;
+    margin-left: 1.5em;
+}
+
+#step1 {
+    font-size: 150%;
+    margin-top: 33em;
+    margin-left: 2em;
+}
+
+#step2 {
+    font-size: 150%;
+    margin-top: 66em;
+    margin-left: 2em;
+
+}
+
+#step3 {
+    font-size: 150%;
+    margin-top: 99em;
+    margin-left: 2em;
+
+}
+
+#step4 {
+     font-size: 150%;
+    margin-top: 132em;
+    margin-left: 2em;
+
+}
+
+#step5 {
+    font-size: 150%;
+    margin-top: 165em;
+    margin-left: 2em;
+
 }
