@@ -7,3 +7,20 @@
     height: 500vh;
     width: 100vw;
 }
+
+body {
+    margin: 0;
+}
+
+.step {
+    z-index: 1;
+    position: absolute;
+    font-size: 150%;
+    color: white
+}
+
+#image1 {
+    width: 100vw;
+    height: 500vw;
+    position: absolute;
+}
