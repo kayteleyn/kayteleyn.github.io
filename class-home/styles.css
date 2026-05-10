@@ -27,4 +27,45 @@
     border-radius: 8px;
     font-weight: 600;
     transition: 0.2s ease-in-out;
+    font-size: 25px
+}
+
+#github a:hover {
+    background-color: #F25A9C
+    
+}
+
+.li {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #751A42;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    margin: .3em;
+    width: 35vw;
+}
+
+.li:hover {
+    background-color: #F25A9C;
+}
+
+#petsanct a {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 6px 0;
+    background-color: #751A42;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    font-size: 25px
+}
+
+#petsanct a:hover {
+    background-color: #F25A9C;
 }
