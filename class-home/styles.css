@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+    background-color: #FFE3EE;
+}
+
+#name {
+    font-size: 65px;
+    margin-top: .2em;
+    margin-left: 1em;
+    color: #751A42;
+    margin-bottom: .1em;
+}
+
+#desc {
+    margin-left: 1em;
+    font-size: 20px
+}
+
+
+#github a {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 6px 0;
+    background-color: #751A42;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
